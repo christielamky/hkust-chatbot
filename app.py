@@ -3,7 +3,7 @@ from openai import OpenAI
 
 # ================= Config =================
 MODEL = "gpt-4o-mini"
-API_KEY = st.secrets["e5071af6c1bd405eb85e1b7fc992deba"]
+API_KEY = st.secrets["HKUST-API-KEY"]
 CUSTOM_HEADERS = {"api-key": API_KEY}
 
 client = OpenAI(
